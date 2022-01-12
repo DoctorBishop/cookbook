@@ -5,10 +5,23 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution FIles", "Solution FIles", "{89B96073-FA23-4EB6-97AD-0D5B2EA208AE}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumsBinding", "EnumsBinding\EnumsBinding.csproj", "{3FFAFE9E-6D23-4036-B0D6-FF928607233B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FFAFE9E-6D23-4036-B0D6-FF928607233B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFAFE9E-6D23-4036-B0D6-FF928607233B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFAFE9E-6D23-4036-B0D6-FF928607233B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFAFE9E-6D23-4036-B0D6-FF928607233B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

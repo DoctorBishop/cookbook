@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution FIles", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.dockerignore = .dockerignore
 		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumsBinding", "EnumsBinding\EnumsBinding.csproj", "{3FFAFE9E-6D23-4036-B0D6-FF928607233B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumsBinding", "EnumsBinding\EnumsBinding.csproj", "{3FFAFE9E-6D23-4036-B0D6-FF928607233B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
